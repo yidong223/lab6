@@ -59,6 +59,7 @@ footer {
 
 .courses {
     margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (min-width:600px){
@@ -66,5 +67,11 @@ footer {
         display: grid;
         grid-template-columns: 1fr 2fr;
         column-gap: 10px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .links {
+        flex-direction: column;
     }
 }
